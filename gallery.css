@@ -1,0 +1,110 @@
+header{
+  background-color: LimeGreen;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  padding:5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+
+}
+ul li a:hover{
+  background-color: #fff;
+  color:black;
+}
+ul li.active a {
+  background-color: #fff;
+  color:black;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("/media/hackersguild/MEMORY/my project/full.jpeg");
+  font-family:sans-serif;
+}
+.container{
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.container .box
+{
+  position: relative;
+  width: 300px;
+  height:300px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container .box .imgBox
+{
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgBox img
+{
+    width: 300px;
+  height:300px;
+  max-width: 100%;
+  transition: transform 2s;
+}
+.container .box:hover .imgBox img
+{
+  transform: scale(1.2);
+}
+.container .box .details
+{
+  position: absolute;
+  top:10px;
+  left:10px;
+  bottom:10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transform: transform .5s;
+}
+.container .box:hover .details
+{
+  transform: scaleY(1);
+}
+.container .box .details .content
+{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+.container .box .details .content h2
+{
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  color:#ff0;
+}
+.container .box .details .content p
+{
+  margin: 10px 0 0;
+  padding:0;
+
+}
