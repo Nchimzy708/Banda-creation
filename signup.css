@@ -1,15 +1,11 @@
 body{
-  margin: 0;
-
-  padding: 0;
-  font-family: sans-serif;
-  background-image:url("wallpaper-hd-1920x1080-c-cyberpunk.jpg");
+  background-image: url("Cityscape Chicago Skyscrapers UHD.jpg");
   background-repeat: no-repeat;
-  background-size: 130%;
-
+  background-size: 120%;
+  font-family:sans-serif;
 
 }
-.box{
+.wrap{
   max-width: 450px;
   border-radius: 20px;
   margin:auto;
@@ -18,17 +14,12 @@ body{
   padding: 40px;
   color: #fff;
   margin-top: 100px;
-
-  background:linear-gradient(90deg,aqua, blue, darkblue,blue,aqua);
-
 }
-.box h1{
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
+h2{
   text-align: center;
+
 }
-.box input[type="text"],.box input[type ="password"]{
+input[type="text"], input[type ="password"]{
   border: 0;
   background: none;
   display:block;
@@ -42,11 +33,11 @@ body{
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type="text"]:focus,.box input[type ="password"]:focus{
+ input[type="text"]:focus,input[type ="password"]:focus{
   width: 280px;
   border-color:#2ecc71;
 }
-.box input[type ="submit"]{
+input[type ="submit"]{
     border: 0;
   background: none;
   display:block;
@@ -61,6 +52,6 @@ body{
   transition: 0.25s;
   cursor: pointer;
 }
-.box input[type ="submit"]:hover{
+input[type ="submit"]:hover{
   background: #2ecc71;
 }

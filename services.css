@@ -43,7 +43,7 @@ ul li.active a {
     background: #ddd
     margin: 100px auto;
     justify-content: center;
-    background-image: url("/media/hackersguild/MEMORY/my project/54653287.jpg");
+    background-image: url("54653287.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;

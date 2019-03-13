@@ -34,7 +34,7 @@ ul li.active a {
 body{
   margin: 0;
   padding: 0;
-  background-image: url("/media/hackersguild/MEMORY/my project/full.jpeg");
+  background-image: url("full.jpeg");
   font-family:sans-serif;
 }
 .container{
